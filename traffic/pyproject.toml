@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "traffic"
+version = "0.1.0"
+description = ""
+authors = ["equiroz <equiroz@ciencias.unam.mx>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+networkx = "^2.4"
+matplotlib = "^3.2.0"
+pandas = "^1.0.1"
+scipy = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
