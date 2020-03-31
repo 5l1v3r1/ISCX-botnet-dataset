@@ -1,1 +1,2 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+traffic/traffic/res/ISCX_Botnet-Testing.csv filter=lfs diff=lfs merge=lfs -text
